@@ -1,0 +1,15 @@
+/* CSS RESET*/
+
+/* Border box reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*other Resets */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
