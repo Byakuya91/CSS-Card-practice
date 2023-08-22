@@ -1,4 +1,5 @@
-/* CSS RESET*/
+/* CSS RESET* and properties /
+/* Card components: */
 
 /* Border box reset */
 *,
@@ -12,4 +13,18 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
+}
+
+/* Body styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* button styles */
+button {
+
+    cursor: pointer;
+    background: none;
+    border: none;
 }
