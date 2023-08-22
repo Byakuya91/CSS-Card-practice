@@ -1,4 +1,4 @@
-/* CSS RESET* and properties /
+/* CSS RESET and properties /
 /* Card components: */
 
 /* Border box reset */
@@ -8,16 +8,17 @@
     box-sizing: border-box;
 }
 
-/*other Resets */
+/*margin and padding and LH Resets */
 * {
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
 
-/* Body styles */
+/* body resets */
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -27,4 +28,17 @@ button {
     cursor: pointer;
     background: none;
     border: none;
+    /* inhering the color from .card class */
+    color: inherit
+}
+
+/* CARD COMPONENT */
+
+.card {
+    width: 600px;
+    background-color: black;
+    color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 100px auto 0;
 }
